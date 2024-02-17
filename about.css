@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header{
+    height: 100px;
+    width: 100%;
+    background-color:transparent;
+}
+.ldiv{
+    height: 100px;
+    width: 50%;
+    float: left;
+
+}
+.logo{
+    height: 100px;
+    padding-left: 113px;
+}
+.navbar{
+    height: 100px;
+    width: 50%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul li{
+    float: left;
+    list-style-type: none;
+    color: white;
+    margin-left: 79px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size:x-large ;
+}
+ul li :hover{
+    color:red;
+}
+.info{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(pics/pica2.jpg);
+    background-size: cover;
+    height: 100vh;
+    width:100%;
+}
+.s1{
+    background-color: transparent;
+    width:450px;
+    height:auto;
+    margin-top: 64px;
+    margin-left: 545px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.s1 h1{
+    font-size: xxx-large;
+    font-weight: bolder;
+    color:white;
+}
+.s1 p{
+    margin-top: 50px;
+    font-weight: 200;
+    font-size: xx-large;
+    color: white;
+}
+button{
+    height: 50px;
+    width: 175px;
+    border-radius: 10px;
+    border: solid 1px white;
+    background-color: transparent;
+    margin-top: 36px;
+    font-weight: 1000;
+    font-size: x-large;
+    color: white;
+    transition: all 1s ease-out;
+    background-position: right;
+}
+button:hover{
+    color:black;
+    background-color:white;
+    background-position: left;
+    
+}
+.s2{
+    background-size: cover;
+    background-color:black;
+    height:auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.welcome{
+    background-color:black;
+    width:75%;
+    height:auto;
+    margin-top: 40px;
+    color: white;
+    font-size:xx-large;
+    display: flex;
+    margin-left: 12.5%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.desc{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+.desc1{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+.str{
+    background-image: url(pics/202dd82a2f10de25c5a602a69ad83e21.png!sw800);
+    background-size:cover ;
+    height:700px;
+    width: 75%;
+    margin-left: 60px;
+    margin-top: 47px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.s2 img{
+    height: 518px;
+    width: 322px;
+    margin-left: 40px;
+}
+.cardio img{
+    height: 518px;
+    width: 322px;
+}
+.cardio desc{
+    margin-left: 40px;
+}
+.s2 p{
+    color: white;
+    font-size:x-large;
+}
+.s2 h2{
+    color: white;
+    font-size: xx-large;
+}
+.cardio{
+    background-image: url(pics/Battlerope.jpg);
+    background-size:cover;
+    height:700px;
+    width: 75%;
+    margin-top: 47px;
+    border-radius: 20px;
+    display: flex;
+    margin-right: 60px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.zumba{
+    background-image:linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(pics/media_19ea5fff6f4d648eb6fe65f2daabbc0f8689fd55a.jpeg);
+    background-size:cover;
+    height:700px;
+    width: 75%;
+    margin-top: 47px;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 60px;
+    justify-content: space-evenly;
+}
+.foot{
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height:174px;
+}
+.flogo{
+    height: 100px;
+}
+.f1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 167px;
+    width: 300px;
+}
+.icons{
+    display: flex;
+    gap: 25px;
+    margin-top:20px;
+}
+.add{
+    display: flex;
+    margin-top:35px;
+}
+.add p{
+    color:white;
+}
+.phone{
+    width: 300px;
+    display: flex;
+    margin-top:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.phone p{
+    margin-left: 10px;
+    color:white;
+}

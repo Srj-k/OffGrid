@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <script>
+        function next(){
+            window.open("join.html");
+
+        }
+    </script>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="info">
+        <div class="header">
+            <div class="ldiv">
+                <img src="pics/logo.png" class="logo">
+            </div>    
+            <div class="navbar">
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="join.html">Join</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="s1">
+            <h1>About Us</h1>
+            <p>Welcome to OffGrid, where fitness meets community! 
+                Established with a passion for health and wellness, we are more than just a gym—we
+                 are a destination for transformation, inspiration, and camaraderie.</p>
+            <button onclick="next()">Join</button>     
+        </div>
+    </section>
+    <section class="s2">
+            <div class="welcome">
+                <p><h1>Discover a World of Wellness at OffGrid</h1><br><br> 
+                    At OffGrid, we understand that fitness is a journey unique to each individual. That's why we've meticulously curated a diverse range of categories, ensuring there's something for everyone seeking a healthier, stronger, and more vibrant lifestyle.
+                    
+                    Explore the various dimensions of fitness through our thoughtfully designed categories, each tailored to meet your specific goals and preferences. Whether you're a cardio enthusiast, strength training aficionado, or someone seeking the serenity of yoga, our categories are crafted to elevate your fitness experience.</p>
+            </div>
+            <div class="desc">
+                <div class="str">
+                    
+                    <h2>Strength Training</h2>
+                    <p>
+                        <strong>Free Weights (Dumbbells, Barbells):</strong> Build strength and muscle with our extensive collection of free weights, catering to beginners and seasoned lifters alike. <br>
+                        <strong>Resistance Machines:</strong> Target specific muscle groups with our state-of-the-art resistance machines, suitable for all fitness levels. <br>
+                        <strong>Power Racks and Lifting Platforms:</strong> For serious strength enthusiasts, our power racks and lifting platforms provide the space and equipment for compound lifts.</p>
+                    <button onclick="next()">Learn More</button>
+                </div>
+            </div>
+            <div class="desc1">    
+                <div class="cardio">
+                    <h2>Cardio Training</h2>
+                    <p>
+                        <strong>Treadmills:</strong> Experience the freedom of running or walking on our top-of-the-line treadmills, equipped with customizable settings and built-in entertainment options. <br>
+                        <strong>Elliptical Trainers:</strong> Low-impact but high-intensity workouts designed to elevate your heart rate and strengthen your entire body. <br>
+                        <strong>Stationary Bikes:</strong> Pedal your way to fitness with our range of stationary bikes, offering various programs to suit different fitness levels. <br>
+                    </p>
+                    <button onclick="next()">Learn More</button>
+                </div>
+            </div>
+            <div class="desc">    
+                <div class="zumba">
+                    <h2>Zumba</h2>
+                    <p>
+                        <strong>Rhythmic Fitness Fun:</strong> Zumba is not just a workout; it's a dance party where you can let loose and have a blast while getting fit. <br>
+                        <strong>Calorie Melting Moves:</strong> Burn calories with each exhilarating dance routine, combining cardio and toning for a comprehensive fitness experience. <br>
+                        <strong>Inclusive Dance Community:</strong> Our Zumba classes cater to all dance levels and fitness abilities. Whether you're a seasoned dancer or a beginner, you'll find your groove in a welcoming and supportive environment. <br>
+                    </p>
+                    <button onclick="next()">Learn More</button>
+                </div>
+            </div>       
+    </section>
+    <footer id="contactSection" class="foot">
+        <img src="pics/logo.png" class="flogo">
+        <div class="f1">
+            <div class="icons">
+                <a href="www.google.com"><i class="fa-brands fa-facebook fa-xl" style="color: #ffffff;"></i></a>
+                <a href="https://www.youtube.com/channel/UCI78AdiI6f7VKhqW1i4B3Rw"><i class="fa-brands fa-youtube fa-xl" style="color: #ffffff;"></i></a>
+                <a href="https://www.instagram.com/burgerspace.in/"><i class="fa-brands fa-instagram fa-xl" style="color: #ffffff;"></i></a>
+            </div>
+            <div class="add">
+                <p>West Fort Juction, Nethaji Rd, near Tip Top Furnitures, Thrissur, Kerala 680004</p>
+            </div>
+            <div class="phone">
+                <i class="fa-solid fa-phone fa-xl" style="color: #ffffff;"></i>
+                <p>07902381381</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var contactAnchor = document.querySelector('a[href="#contact"]');
+    
+            var contactSection = document.getElementById('contactSection');
+    
+            contactAnchor.addEventListener('click', function(event) {
+                event.preventDefault();
+                contactSection.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
